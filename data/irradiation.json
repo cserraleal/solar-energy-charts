@@ -1,0 +1,20 @@
+[
+  {
+    "ubicacion": "Ciudad de Guatemala",
+    "año": 2023,
+    "datos": {
+      "Enero": 160,
+      "Febrero": 180,
+      "Marzo": 210,
+      "Abril": 220,
+      "Mayo": 200,
+      "Junio": 190,
+      "Julio": 180,
+      "Agosto": 170,
+      "Septiembre": 180,
+      "Octubre": 190,
+      "Noviembre": 170,
+      "Diciembre": 160
+    }
+  }
+]

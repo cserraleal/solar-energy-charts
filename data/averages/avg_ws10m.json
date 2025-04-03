@@ -1,0 +1,359 @@
+[
+  {
+    "departamento": "peten",
+    "datos": {
+      "Enero": 1.11,
+      "Febrero": 1.23,
+      "Marzo": 1.26,
+      "Abril": 1.25,
+      "Mayo": 1.16,
+      "Junio": 1.05,
+      "Julio": 1.02,
+      "Agosto": 0.95,
+      "Septiembre": 0.87,
+      "Octubre": 0.94,
+      "Noviembre": 1.03,
+      "Diciembre": 1.06
+    }
+  },
+  {
+    "departamento": "sacatepequez",
+    "datos": {
+      "Enero": 3.69,
+      "Febrero": 3.43,
+      "Marzo": 3.15,
+      "Abril": 2.61,
+      "Mayo": 2.12,
+      "Junio": 2.22,
+      "Julio": 2.54,
+      "Agosto": 2.09,
+      "Septiembre": 1.79,
+      "Octubre": 2.23,
+      "Noviembre": 3.0,
+      "Diciembre": 3.71
+    }
+  },
+  {
+    "departamento": "santa_rosa",
+    "datos": {
+      "Enero": 4.2,
+      "Febrero": 3.93,
+      "Marzo": 3.75,
+      "Abril": 3.01,
+      "Mayo": 2.33,
+      "Junio": 2.29,
+      "Julio": 2.83,
+      "Agosto": 2.27,
+      "Septiembre": 1.89,
+      "Octubre": 2.57,
+      "Noviembre": 3.65,
+      "Diciembre": 4.22
+    }
+  },
+  {
+    "departamento": "chiquimula",
+    "datos": {
+      "Enero": 2.74,
+      "Febrero": 2.77,
+      "Marzo": 2.81,
+      "Abril": 2.6,
+      "Mayo": 2.04,
+      "Junio": 1.9,
+      "Julio": 2.24,
+      "Agosto": 1.92,
+      "Septiembre": 1.72,
+      "Octubre": 2.09,
+      "Noviembre": 2.62,
+      "Diciembre": 2.73
+    }
+  },
+  {
+    "departamento": "jalapa",
+    "datos": {
+      "Enero": 4.2,
+      "Febrero": 3.93,
+      "Marzo": 3.75,
+      "Abril": 3.01,
+      "Mayo": 2.33,
+      "Junio": 2.29,
+      "Julio": 2.83,
+      "Agosto": 2.27,
+      "Septiembre": 1.89,
+      "Octubre": 2.57,
+      "Noviembre": 3.65,
+      "Diciembre": 4.22
+    }
+  },
+  {
+    "departamento": "guatemala",
+    "datos": {
+      "Enero": 3.69,
+      "Febrero": 3.43,
+      "Marzo": 3.15,
+      "Abril": 2.61,
+      "Mayo": 2.12,
+      "Junio": 2.22,
+      "Julio": 2.54,
+      "Agosto": 2.09,
+      "Septiembre": 1.79,
+      "Octubre": 2.23,
+      "Noviembre": 3.0,
+      "Diciembre": 3.71
+    }
+  },
+  {
+    "departamento": "escuintla",
+    "datos": {
+      "Enero": 3.69,
+      "Febrero": 3.43,
+      "Marzo": 3.15,
+      "Abril": 2.61,
+      "Mayo": 2.12,
+      "Junio": 2.22,
+      "Julio": 2.54,
+      "Agosto": 2.09,
+      "Septiembre": 1.79,
+      "Octubre": 2.23,
+      "Noviembre": 3.0,
+      "Diciembre": 3.71
+    }
+  },
+  {
+    "departamento": "izabal",
+    "datos": {
+      "Enero": 1.38,
+      "Febrero": 1.43,
+      "Marzo": 1.43,
+      "Abril": 1.35,
+      "Mayo": 1.24,
+      "Junio": 1.12,
+      "Julio": 1.33,
+      "Agosto": 1.14,
+      "Septiembre": 1.04,
+      "Octubre": 1.14,
+      "Noviembre": 1.32,
+      "Diciembre": 1.35
+    }
+  },
+  {
+    "departamento": "jutiapa",
+    "datos": {
+      "Enero": 4.2,
+      "Febrero": 3.93,
+      "Marzo": 3.75,
+      "Abril": 3.01,
+      "Mayo": 2.33,
+      "Junio": 2.29,
+      "Julio": 2.83,
+      "Agosto": 2.27,
+      "Septiembre": 1.89,
+      "Octubre": 2.57,
+      "Noviembre": 3.65,
+      "Diciembre": 4.22
+    }
+  },
+  {
+    "departamento": "alta_verapaz",
+    "datos": {
+      "Enero": 1.76,
+      "Febrero": 1.81,
+      "Marzo": 1.88,
+      "Abril": 1.84,
+      "Mayo": 1.68,
+      "Junio": 1.59,
+      "Julio": 1.66,
+      "Agosto": 1.55,
+      "Septiembre": 1.51,
+      "Octubre": 1.61,
+      "Noviembre": 1.8,
+      "Diciembre": 1.7
+    }
+  },
+  {
+    "departamento": "retalhuleu",
+    "datos": {
+      "Enero": 1.89,
+      "Febrero": 2.04,
+      "Marzo": 2.19,
+      "Abril": 2.4,
+      "Mayo": 2.36,
+      "Junio": 2.6,
+      "Julio": 2.11,
+      "Agosto": 2.22,
+      "Septiembre": 2.42,
+      "Octubre": 2.41,
+      "Noviembre": 2.02,
+      "Diciembre": 1.79
+    }
+  },
+  {
+    "departamento": "quetzaltenango",
+    "datos": {
+      "Enero": 2.55,
+      "Febrero": 2.51,
+      "Marzo": 2.37,
+      "Abril": 2.02,
+      "Mayo": 1.77,
+      "Junio": 2.1,
+      "Julio": 2.39,
+      "Agosto": 2.04,
+      "Septiembre": 1.79,
+      "Octubre": 1.97,
+      "Noviembre": 2.39,
+      "Diciembre": 2.5
+    }
+  },
+  {
+    "departamento": "chimaltenango",
+    "datos": {
+      "Enero": 3.69,
+      "Febrero": 3.43,
+      "Marzo": 3.15,
+      "Abril": 2.61,
+      "Mayo": 2.12,
+      "Junio": 2.22,
+      "Julio": 2.54,
+      "Agosto": 2.09,
+      "Septiembre": 1.79,
+      "Octubre": 2.23,
+      "Noviembre": 3.0,
+      "Diciembre": 3.71
+    }
+  },
+  {
+    "departamento": "solola",
+    "datos": {
+      "Enero": 2.55,
+      "Febrero": 2.51,
+      "Marzo": 2.37,
+      "Abril": 2.02,
+      "Mayo": 1.77,
+      "Junio": 2.1,
+      "Julio": 2.39,
+      "Agosto": 2.04,
+      "Septiembre": 1.79,
+      "Octubre": 1.97,
+      "Noviembre": 2.39,
+      "Diciembre": 2.5
+    }
+  },
+  {
+    "departamento": "totonicapan",
+    "datos": {
+      "Enero": 2.55,
+      "Febrero": 2.51,
+      "Marzo": 2.37,
+      "Abril": 2.02,
+      "Mayo": 1.77,
+      "Junio": 2.1,
+      "Julio": 2.39,
+      "Agosto": 2.04,
+      "Septiembre": 1.79,
+      "Octubre": 1.97,
+      "Noviembre": 2.39,
+      "Diciembre": 2.5
+    }
+  },
+  {
+    "departamento": "baja_verapaz",
+    "datos": {
+      "Enero": 2.85,
+      "Febrero": 2.87,
+      "Marzo": 2.88,
+      "Abril": 2.61,
+      "Mayo": 2.1,
+      "Junio": 1.98,
+      "Julio": 2.33,
+      "Agosto": 2.01,
+      "Septiembre": 1.79,
+      "Octubre": 2.15,
+      "Noviembre": 2.71,
+      "Diciembre": 2.82
+    }
+  },
+  {
+    "departamento": "suchitepequez",
+    "datos": {
+      "Enero": 2.17,
+      "Febrero": 2.17,
+      "Marzo": 2.09,
+      "Abril": 2.01,
+      "Mayo": 1.84,
+      "Junio": 1.98,
+      "Julio": 1.76,
+      "Agosto": 1.66,
+      "Septiembre": 1.67,
+      "Octubre": 1.67,
+      "Noviembre": 1.7,
+      "Diciembre": 2.07
+    }
+  },
+  {
+    "departamento": "san_marcos",
+    "datos": {
+      "Enero": 1.54,
+      "Febrero": 1.6,
+      "Marzo": 1.65,
+      "Abril": 1.63,
+      "Mayo": 1.45,
+      "Junio": 1.56,
+      "Julio": 1.23,
+      "Agosto": 1.26,
+      "Septiembre": 1.35,
+      "Octubre": 1.28,
+      "Noviembre": 1.31,
+      "Diciembre": 1.45
+    }
+  },
+  {
+    "departamento": "huehuetenango",
+    "datos": {
+      "Enero": 1.92,
+      "Febrero": 2.0,
+      "Marzo": 2.1,
+      "Abril": 2.0,
+      "Mayo": 1.79,
+      "Junio": 1.77,
+      "Julio": 2.02,
+      "Agosto": 1.79,
+      "Septiembre": 1.67,
+      "Octubre": 1.78,
+      "Noviembre": 1.95,
+      "Diciembre": 1.87
+    }
+  },
+  {
+    "departamento": "el_progreso",
+    "datos": {
+      "Enero": 2.85,
+      "Febrero": 2.87,
+      "Marzo": 2.88,
+      "Abril": 2.61,
+      "Mayo": 2.1,
+      "Junio": 1.98,
+      "Julio": 2.33,
+      "Agosto": 2.01,
+      "Septiembre": 1.79,
+      "Octubre": 2.15,
+      "Noviembre": 2.71,
+      "Diciembre": 2.82
+    }
+  },
+  {
+    "departamento": "zacapa",
+    "datos": {
+      "Enero": 2.74,
+      "Febrero": 2.77,
+      "Marzo": 2.81,
+      "Abril": 2.6,
+      "Mayo": 2.04,
+      "Junio": 1.9,
+      "Julio": 2.24,
+      "Agosto": 1.92,
+      "Septiembre": 1.72,
+      "Octubre": 2.09,
+      "Noviembre": 2.62,
+      "Diciembre": 2.73
+    }
+  }
+]

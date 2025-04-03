@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Gráficas de Energía</title>
+
+  <!-- Chart.js core -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+  <!-- Custom styles -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- Department dropdown -->
+  <div class="controls">
+    <label for="departamentoSelect">Departamento:</label>
+    <select id="departamentoSelect"></select>
+  </div>
+
+  <!-- Chart container -->
+  <div class="chart-container">
+    <canvas id="solarChart" style="width: 100%; height: 500px;"></canvas>
+  </div>
+
+  <!-- Dynamic chart loader -->
+  <script>
+    const urlParams = new URLSearchParams(window.location.search);
+    const chartType = urlParams.get("chart") || "irradiation_avg";
+
+    const script = document.createElement("script");
+
+    switch (chartType) {
+      case "irradiation_avg":
+        script.src = "js/charts/irradiation_avg_chart_bar.js";
+        break;
+      case "irradiation_line":
+        script.src = "js/charts/irradiation_avg_chart.js";
+        break;
+      case "temperature_avg":
+        script.src = "js/charts/temperature_avg_chart.js";
+        break;
+      case "precipitation_avg":
+        script.src = "js/charts/precipitation_avg_chart.js";
+        break;
+      case "wind_ws2m_range":
+        script.src = "js/charts/wind_ws2m_range_chart.js";
+        break;
+      default:
+        script.src = "js/charts/irradiation_avg_chart_bar.js";
+    }
+
+    document.body.appendChild(script);
+  </script>
+
+</body>
+</html>
