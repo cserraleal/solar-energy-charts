@@ -67,9 +67,12 @@ function renderChart(data, selectedDept) {
         },
         title: {
           display: true,
-          text: "Precipitación Promedio Mensual por Departamento (2017–2024)",
+          text: "Precipitación Promedio Mensual",
+          align: "center",
           font: {
-            size: 18
+            size: 18,
+            weight: "bold",
+            color: "#000000"
           },
           padding: {
             top: 10,
