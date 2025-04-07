@@ -32,7 +32,6 @@ canvas {
 
 .controls label {
   font-size: 18px;
-  font-weight: bold;
   color: #000000;
   margin-right: 10px;
 }
@@ -41,7 +40,9 @@ select {
   padding: 0.4rem 0.8rem;
   font-size: 1rem;
   border-radius: 5px;
-  width: 250px;
+  width: 100%;
+  max-width: 300px;
+  box-sizing: border-box;
 }
 
 /* Optional responsive tweaks */
