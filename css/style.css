@@ -3,6 +3,7 @@ body, html {
   padding: 0;
   background-color: white;
   height: 100%;
+  overflow: hidden;
 }
 
 .chart-container {
@@ -12,10 +13,9 @@ body, html {
   max-height: 800px;
   margin: auto;
   background: white;
-  /*padding: 1rem;
+  /*padding: 1rem;*/
   border-radius: 10px;
   box-sizing: border-box;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);*/
 }
 
 canvas {
@@ -37,12 +37,3 @@ select {
 }
 
 /* Optional responsive tweaks */
-@media screen and (max-width: 600px) {
-  .chart-container {
-    height: 550px;   /* Slightly smaller for mobile */
-  }
-
-  select {
-    width: 90%;
-  }
-}

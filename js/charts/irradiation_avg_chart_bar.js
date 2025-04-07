@@ -72,13 +72,16 @@ function renderChart(data, selectedDept) {
         },
         title: {
           display: true,
-          text: "Radiación Solar Promedio Mensual (2017–2024)",
+          text: "Radiación Solar Promedio Mensual",
+          align: "center",
           font: {
-            size: 18
+            size: 18,
+            weight: "bold",
+            color: "#000000"
           },
           padding: {
             top: 10,
-            bottom: 20
+            bottom: 10
           }
         },
         tooltip: {
