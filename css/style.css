@@ -27,21 +27,23 @@ canvas {
 
 .controls {
   text-align: right;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  padding: 0 1rem;
   margin-bottom: 1rem;
 }
 
 .controls label {
   text-align: center;
-  font-size: 18px;
+  font-size: 16px;
   color: #000000;
-  margin-right: 10px;
 }
 
 select {
   padding: 0.4rem 0.8rem;
   font-size: 1rem;
   border-radius: 5px;
-  width: 100%;
+  width: auto;
   max-width: 150px;
   box-sizing: border-box;
 }
