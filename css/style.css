@@ -1,37 +1,60 @@
 body {
   font-family: Arial, sans-serif;
   margin: 0;
-  padding: 2rem;
-  background-color: #f5f5f5;
+  padding: 0; /* Changed from 2rem to 0 */
+  background-color: white; /* Changed from #f5f5f5 to white */
 }
 
 .chart-container {
   width: 100%;
   max-width: 1000px;
-  height: 500px;
+  height: auto; /* Let content decide height */
   margin: auto;
   background: white;
   padding: 1.5rem;
   border-radius: 10px;
   box-sizing: border-box;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  overflow-x: auto;
+  overflow-x: hidden; /* Prevent horizontal scroll */
 }
 
-
-/* Ensures the canvas scales properly */
 canvas {
   width: 100% !important;
   height: auto !important;
+  max-height: 600px;
 }
 
 .controls {
   text-align: center;
-  margin-bottom: 1rem;
+  margin: 1rem 0;
 }
 
 select {
   padding: 0.4rem 0.8rem;
   font-size: 1rem;
   border-radius: 5px;
+  max-width: 90%;
+  width: 250px;
+}
+
+/* Responsive tweaks for tablet and mobile */
+@media screen and (max-width: 900px) {
+  .chart-container {
+    padding: 1rem;
+  }
+
+  canvas {
+    max-height: 500px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  select {
+    width: 90%;
+    font-size: 0.9rem;
+  }
+
+  canvas {
+    max-height: 400px;
+  }
 }
