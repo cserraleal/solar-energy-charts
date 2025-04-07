@@ -48,7 +48,7 @@ function renderChart(data, selectedDept) {
     data: {
       labels: labels,
       datasets: [{
-        label: `Precipitación - ${capitalize(selectedDept)}`,
+        label: `Precipitación Promdio - ${capitalize(selectedDept)}`,
         data: values,
         backgroundColor: colors,
         borderRadius: 5
@@ -63,10 +63,10 @@ function renderChart(data, selectedDept) {
       },
       plugins: {
         legend: {
-          position: "bottom"
+          position: "top"
         },
         title: {
-          display: true,
+          display: false,
           text: "Precipitación Promedio Mensual",
           align: "center",
           font: {

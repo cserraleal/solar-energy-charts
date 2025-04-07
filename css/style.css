@@ -31,6 +31,7 @@ canvas {
 }
 
 .controls label {
+  text-align: center;
   font-size: 18px;
   color: #000000;
   margin-right: 10px;
@@ -41,7 +42,7 @@ select {
   font-size: 1rem;
   border-radius: 5px;
   width: 100%;
-  max-width: 300px;
+  max-width: 150px;
   box-sizing: border-box;
 }
 

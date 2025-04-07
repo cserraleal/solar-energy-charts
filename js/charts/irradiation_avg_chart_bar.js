@@ -53,7 +53,7 @@ function renderChart(data, selectedDept) {
     data: {
       labels: labels,
       datasets: [{
-        label: `Radiación Solar - ${capitalize(selectedDept)}`,
+        label: `Radiación Solar Promedio - ${capitalize(selectedDept)}`,
         data: values,
         backgroundColor: colors,
         borderRadius: 5
@@ -68,10 +68,15 @@ function renderChart(data, selectedDept) {
       },
       plugins: {
         legend: {
-          position: "bottom"
+          position: "top",
+          font: {
+            size: 18,
+            weight: "bold",
+            color: "#000000"
+          },
         },
         title: {
-          display: true,
+          display: false,
           text: "Radiación Solar Promedio Mensual",
           align: "center",
           font: {
