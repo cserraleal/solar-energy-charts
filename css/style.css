@@ -7,7 +7,7 @@ body, html {
 }
 
 .chart-container {
-  width: 100%;
+  width: 98%;
   max-width: 1000px;
   height: 90%;           /* ✅ Fixed container height */
   max-height: 800px;
